@@ -1,0 +1,15 @@
+id,nom,description,recompense-xp,nombre-question,difficulte,matiere,idlieu
+0,1 2 3 soleil !,La culture c'est important,100,3,0,4,0
+1,Cache-cache !,Vous en savez des choses..,150,3,1,4,0
+2,Un ping-pong ?,La culture c'est comme la confiture plus on en a plus on l'étale,250,3,2,4,0
+3,Tea time,Être ou ne pas être telle est la question,100,3,0,5,1
+4,Un peu de conjugaison ?,pas de piège promis !,100,3,0,0,2
+5,L'orthographe ce n'est pas si compliqué,Orthographe ou orthografe ?,150,3,1,0,2
+6,Une dictée ?,Si j'aurais su j'aurais pas venu,200,3,2,0,2
+7,Atelier lecture,Il était une fois...,150,3,1,6,3
+8,Cours d'informatique,0110010101100110,200,3,2,6,3
+9,J'ai une histoire à vous raconter...,L'histoire est comme un album photo sauf que les personnes sont mortes et que c'est écrit en latin,100,3,0,1,4
+10,Voyage à travers les continents,As-tu l'âme d'un aventurier ?,150,3,1,2,4
+11,Les additions,Vous devriez avoir tour juste,100,3,0,3,5
+12,Les multiplications,Ca se complique,150,3,1,3,5
+13,Un peu de tout et des divisions,,200,3,2,3,5
