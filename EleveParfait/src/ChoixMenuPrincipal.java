@@ -1,3 +1,0 @@
-enum ChoixMenuPrincipal {
-  NOUVELLE_PARTIE, CHARGER_PARTIE, QUITTER;
-}
