@@ -1,0 +1,85 @@
+L'ECOLIER PARFAIT
+
+Description du jeu :
+	RPG Educatif
+	Objectifs : Devenir le plus populaire et le 1er de la classe
+	A chaque tour, un choix de lieu avec questions
+	Aléatoirement, un contrôle surpise
+	Classement avec les autres élèves de la classe
+
+Eléments :
+	Menu
+		--> Liste de choix
+		--> Action différente selon le choix
+	Salle
+		--> Démarrer quêtes
+		--> Accès autres salles
+	Pour chaque élève : --> strcuture personnalisé donc array de cette structure
+		XP popularité
+		Moyenne générale
+		Nom prénom
+		Classe
+	Système de tour (en jour de la semaine) --> Entier + array de String avec
+jours semaine
+
+Penser cette partie comme une base de donnée (+ les élèves)
+-------------------------------------------
+	Lieux
+		Matière concernée
+		Disponibilité
+		(Graphisme)
+	Quêtes
+		Description
+		Questions
+			Difficultés
+			Intitulé
+			Récompense
+	...
+-------------------------------------------
+
+
+
+
+Fonctionnalités :
+	Création de nouvelle partie / reprendre partie existante
+	Sauvegarde de progression
+	Tutoriel
+	Changer de salle (1 salle = 1 thème)
+	Choix de difficultés de questions (XP différentes selon difficulités)
+	Répondre à des questions
+	Affichage du classement
+	Niveau des élèves avec aptitudes prédéfinis
+
+Déroulé du jeu :
+	Affichage du menu principal :
+		Options, Nouvelle partie, charger partie, quitter, sauvegarder
+	Si nouvelle partie :
+		Saisi du nom, + classe ?
+		Tutoriel (possible de le passer)
+	Si charger partie :
+		Saisir n° de partie
+	Options :
+		Ajouter des questions ou lieu
+		Type d'affichage
+	La partie en elle même :
+		Choisir une salle
+		Choisir une quête --> questions
+		Répondre à la question
+		Màj du score pour tous les élèves
+		On passe au tour suivant
+		Possibilité de quitter à tous moments
+
+TODO :
+	Faire un plan des salles --> Maxime
+	Modèle de BDD --> Nicolas
+		--> Utilité des ID à définir ?
+		--> Pour les éléments reliés entre eux, on reli avec id ou vrai Objet ?
+		--> Représentation des sauvegardes ? Se mettre d'accord
+	Lister toutes les fonctions et se les partager --> Ensemble pour le 6/12
+
+
+
+Idées en vrac :
+	Fermer des salles à certains moments
+	Pouvoir rajouter des questions dans les paramètres
+	Pendant le week-end, modifier popularité aléatoirement
